@@ -13,7 +13,7 @@ import {
   Typography,
   useMediaQuery
 } from '@mui/material';
-import { Logo } from 'src/components/logo';
+// import { Logo } from 'src/components/logo';
 import { Scrollbar } from 'src/components/scrollbar';
 import { items } from './config';
 import { SideNavItem } from './side-nav-item';
@@ -71,13 +71,13 @@ export const SideNav = (props) => {
                 color="inherit"
                 variant="subtitle1"
               >
-                Devias
+                Nxgen Cysec
               </Typography>
               <Typography
                 color="neutral.400"
                 variant="body2"
               >
-                Production
+                Dashboard
               </Typography>
             </div>
             <SvgIcon
