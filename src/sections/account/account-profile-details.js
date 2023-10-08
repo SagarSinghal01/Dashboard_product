@@ -13,31 +13,31 @@ import {
 
 const states = [
   {
-    value: 'alabama',
-    label: 'Alabama'
+    value: 'India',
+    label: 'India'
   },
   {
-    value: 'new-york',
-    label: 'New York'
+    value: 'India',
+    label: 'India'
   },
   {
-    value: 'san-francisco',
-    label: 'San Francisco'
+    value: 'India',
+    label: 'India'
   },
   {
-    value: 'los-angeles',
-    label: 'Los Angeles'
+    value: 'India',
+    label: 'India'
   }
 ];
 
 export const AccountProfileDetails = () => {
   const [values, setValues] = useState({
-    firstName: 'Anika',
-    lastName: 'Visser',
-    email: 'demo@devias.io',
+    firstName: 'Sagar',
+    lastName: 'Singhal',
+    email: 'Test@nxgencysec.com',
     phone: '',
-    state: 'los-angeles',
-    country: 'USA'
+    state: 'Uttar Pradesh',
+    country: 'India'
   });
 
   const handleChange = useCallback(
@@ -65,7 +65,7 @@ export const AccountProfileDetails = () => {
     >
       <Card>
         <CardHeader
-          subheader="The information can be edited"
+          subheader="The information can be edited in future"
           title="Profile"
         />
         <CardContent sx={{ pt: 0 }}>
